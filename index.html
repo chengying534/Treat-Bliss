@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Treat Bliss Bakery</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- Admin Panel (Top) -->
+  <section id="adminPanel" style="display:none;">
+    <h2>👩‍🍳 Owner Panel – Add Product</h2>
+    <input type="text" id="productName" placeholder="Product Name" />
+    <input type="text" id="productPrice" placeholder="Price (Rs)" />
+    <input type="text" id="productImage" placeholder="Image URL" />
+    <button onclick="addProduct()">Add Product</button>
+  </section>
+
+  <!-- Shop Products -->
+  <section id="shop">
+    <h2>🛍️ Treat Bliss Shop</h2>
+    <div id="productList" class="product-grid"></div>
+  </section>
+
+  <!-- Home Section -->
+  <section id="home">
+    <h2>Welcome to Treat Bliss</h2>
+    <p>Delicious cakes, brownies, cookies, chocolates, macarons, and more!</p>
+  </section>
+
+  <!-- About Section -->
+  <section id="about">
+    <h2>About Treat Bliss</h2>
+    <p>Treat Bliss is your go-to bakery for all things sweet and elegant. We blend fun flavors with beautiful presentation to create unforgettable desserts!</p>
+  </section>
+
+  <!-- Orders Section -->
+  <section id="orders">
+    <h2>Order Status</h2>
+    <p>Status: <span id="orderStatus">Preparing</span></p>
+    <button onclick="changeStatus()">Update to Dispatched</button>
+    <p class="no-return">Note: No returns accepted.</p>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact">
+    <h2>Contact Us</h2>
+    <p>📞 03340266752</p>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
