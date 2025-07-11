@@ -1,0 +1,70 @@
+body {
+  font-family: 'Quicksand', sans-serif;
+  background: #fbefff;
+  color: #333;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+h2 {
+  color: #a855f7;
+  margin-bottom: 10px;
+}
+
+section {
+  padding: 2rem;
+  border-top: 2px dashed #e0b3ff;
+}
+
+input {
+  padding: 0.5rem;
+  margin: 0.3rem;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+button {
+  background-color: #d946ef;
+  color: white;
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-top: 0.5rem;
+}
+
+button:hover {
+  background-color: #a855f7;
+}
+
+.no-return {
+  font-weight: bold;
+  color: #d0006f;
+}
+
+#productList {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.product-card {
+  background: #ffe6fa;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  padding: 1rem;
+  width: 180px;
+}
+
+.product-card img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+#adminPanel {
+  background: #f0d9ff;
+  border-bottom: 2px solid #d946ef;
+}
